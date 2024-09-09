@@ -1,2 +1,49 @@
 # TRANSPERENT_CLOCK
 TRANSPERENT CLOCK FOR DESKTOP
+
+Overview:-
+
+This PyQt5 application displays a transparent clock on your desktop. It features a simple, minimalistic design with a live updating clock and a "Close" button to exit the application. The clock window is always on top and remains visible while you work with other applications.
+
+Features:-
+
+Transparent window with a purple-colored clock display.
+Displays the current time in HH:MM:SS format.
+Includes a "Close" button to exit the application.
+Positioned in the bottom-right corner of the screen.
+
+Requirements:-
+
+Python 3.x
+PyQt5
+
+Installation:-
+
+Install Python: Make sure Python 3.x is installed on your system. You can download it from python.org.
+
+Install PyQt5: Use pip to install the PyQt5 library.
+
+pip install PyQt5
+
+Usage:-
+
+Download the Script: Save the Python script to a file named transparent_clock.py.
+
+Run the Script: Open a terminal or command prompt and navigate to the directory where you saved the script.
+Run the script using Python: python transparent_clock.py
+
+View the Clock: The transparent clock window should appear in the bottom-right corner of your screen.
+
+Close the Application: Click the "Close" button on the clock window to exit the application.
+
+Code Explanation:-
+
+Window Setup: The clock window is frameless, stays on top of other windows, and has a translucent background.
+Label: Displays the current time with a font size of 48 and purple color.
+Button: Provides a way to close the application.
+Timer: Updates the clock every second.
+
+Troubleshooting:-
+
+Font Issues: Ensure that the Arial font is installed on your system. If you prefer another font, update the QFont argument in the script.
+Window Position: If the window does not appear in the bottom-right corner, adjust the self.setGeometry parameters in the script as needed.
